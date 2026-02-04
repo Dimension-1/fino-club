@@ -188,7 +188,7 @@ const CoursesSection = () => {
                 >
                   Mentored by Experts
                 </h4>
-                <div className="flex overflow-x-auto scrollbar-hide space-x-4">
+                {/* <div className="flex overflow-x-auto scrollbar-hide space-x-4">
                   {mentors.map((mentor, index) => (
                     <div
                       key={index}
@@ -213,7 +213,7 @@ const CoursesSection = () => {
                     </div>
                   ))}
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
