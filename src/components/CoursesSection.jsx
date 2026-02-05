@@ -212,8 +212,8 @@ const CoursesSection = () => {
                       </div>
                     </div>
                   ))}
-                </div>
-              </div> */}
+                </div> */}
+              </div>
             </div>
           </div>
         </div>
