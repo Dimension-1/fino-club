@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Fino Club
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## CI/CD Setup
+Automatically deploys to Hostinger on push to main branch.
 
 ## Available Scripts
 
