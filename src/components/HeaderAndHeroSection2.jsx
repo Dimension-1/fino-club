@@ -9,7 +9,7 @@ const HeaderAndHeroSection = () => {
           backgroundImage: `url('/Images/Navbar/bg-coming.png')`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat", // Ensures the image doesn't repeat.
-          backgroundPosition: "center", // Keeps the image centered.
+          backgroundPosition: "center", // Keeps the image centered
           zIndex: "9999"
         }}
       >
