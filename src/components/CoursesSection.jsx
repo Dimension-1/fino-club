@@ -163,39 +163,14 @@ const CoursesSection = () => {
                 />
               </div>
               {/* Mentored by Experts Section */}
-              <div className="bg-[#D9D8D8] p-4 sm:p-6 rounded-2xl">
+              {/* <div className="bg-[#D9D8D8] p-4 sm:p-6 rounded-2xl">
                 <h4
                   className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6 text-left"
                   style={{ fontFamily: "DM Sans, sans-serif" }}
                 >
                   Mentored by Experts
                 </h4>
-                {/* <div className="flex overflow-x-auto scrollbar-hide space-x-4">
-                  {mentors.map((mentor, index) => (
-                    <div
-                      key={index}
-                      className="bg-[#EBEBEB] min-w-[60px] sm:min-w-[60px] pb-2 sm:pb-4 flex-shrink-0 rounded-lg shadow-md flex flex-col items-center text-center"
-                    >
-                      <img
-                        src={mentor.image}
-                        alt={mentor.name}
-                        className="object-cover w-[10rem] rounded-t"
-                      />
-                      <div className="flex flex-col items-center pt-4">
-                        <p className="font-semibold text-xs sm:text-sm text-black mb-1">
-                          {mentor.name}
-                        </p>
-                        <p className="text-xs font-light text-black">
-                          {mentor.title}
-                        </p>
-                        <p className="text-xs font-light text-black">
-                          {mentor.experience}
-                        </p>
-                      </div>
-                    </div>
-                  ))}
-                </div> */}
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
