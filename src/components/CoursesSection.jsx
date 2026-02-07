@@ -2,31 +2,11 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 const CoursesSection = () => {
-  const navigate = useNavigate(); // Initialize useNavigate
+  const navigate = useNavigate();
 
   const handleRedirect = () => {
-    navigate("/coming-soon"); // Redirect to the /coming-soon page
+    navigate("/coming-soon");
   };
-  const mentors = [
-    {
-      name: "Chandrakant Sharma",
-      title: "Co-founder Fino",
-      experience: "5Y+ Full-time Prop trader",
-      image: "/Images/Courses/expert1.png",
-    },
-    {
-      name: "Abhimanyu Kucheria",
-      title: "Partner & Fund Manager",
-      experience: "Second Street Partners",
-      image: "/Images/Courses/expert3.png",
-    },
-    {
-      name: "Pratik Patil",
-      title: "Proprietary Trader & CMT II",
-      experience: "4Y+ Full-time Prop trader",
-      image: "/Images/Courses/expert2.png",
-    },
-  ];
 
   return (
     <section className="py-16 bg-[#F7F8FA] text-black px-4 md:px-8">
@@ -72,10 +52,12 @@ const CoursesSection = () => {
               </span>
               <img
                 src="/Images/Courses/artboard.png"
+                alt="Trading Artboard"
                 className="hidden md:block absolute right-0 w-1/3 top-[-120px]"
               />
               <img
                 src="/Images/Courses/artboard.png"
+                alt="Trading Artboard"
                 className="block md:hidden relative"
               />
             </div>

@@ -18,12 +18,6 @@ const AboutSection = () => {
         </div>
 
         <div className="bg-[#1A1A1A] p-12 rounded-lg mx-4 lg:mx-8 relative">
-          <img
-            src="/Images/About/tape.png"
-            alt="Tape"
-            className="absolute top-[-20px] left-[-20px] w-24 h-24"
-          />
-
           <h2
             className="text-center text-md md:text-xl mb-4"
             style={{ fontFamily: "DM Sans, sans-serif" }}
